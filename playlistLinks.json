@@ -1,0 +1,29 @@
+{
+    "[playlists]": [
+        {
+            "emotion": "happy",
+            "description":"For those times when you are just feeling good about life, the world is looking up! This playlist is for the main characters who walk through life with a little pep in their step!" ,
+            "embeddedHtml":"<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/20yvvXBIhPQthgWpvZb69K?utm_source=generator\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
+        },
+        {
+            "emotion": "sad",
+            "description":"Do you like to stare out the window when it rains? Are you going through a breakup eating ice cream alone in your bed? Dive into melancholy as each song is a rain-soaked letter, never sent, carrying whispers of unspoken goodbyes and the shadows of farewells too heavy for words." ,
+            "embeddedHtml":"<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/5kecOTpv0R1GtxJWVuJUIa?utm_source=generator\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
+        },
+        {
+            "emotion": "silly",
+            "description":"Are you feeling a little silly, goofy even? Each track is a burst of sunshine, a musical pie in the face, where the only thing taken seriously is the art of not taking anything seriously at all. After all, life is too short not to celebrate the silly" ,
+            "embeddedHtml":"<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/2OyuSsY7rnZmmnsV3GByNk?utm_source=generator\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
+        },
+        {
+            "emotion": "focused",
+            "description":"Burning the midnight oil? Putting in some elbow grease? This playist will take you to ancient libraries of wisdom as you enter complete concentration. These songs are for the hard workers that know what 'a job well done' means" ,
+            "embeddedHtml":"<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/0O0awLzwbcyPAbtOn2T6qG?utm_source=generator\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
+        },
+        {
+            "emotion": "content",
+            "description":"Dedicated to the hearts that long for adventure in the great outdoors. As you press play, let the first notes call you to the end of the lake where each song ripples across the water, blending with the symphony of nature. " ,
+            "embeddedHtml":"<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/0BdtKFGkfovgoC58UtTkkz?utm_source=generator\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
+        }
+    ]
+}
