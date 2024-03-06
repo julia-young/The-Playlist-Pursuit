@@ -12,15 +12,21 @@ function displayPlaylists(playlistsData) {
         const playlistDiv = document.createElement('div');
         playlistDiv.className = 'playlist';
 
-        const description = document.createElement('h6');
-        description.textContent = playlist.description;
-        playlistDiv.appendChild(description);
-
         const embeddedHtmlDiv = document.createElement('div');
         embeddedHtmlDiv.innerHTML = playlist.embeddedHtml;
         playlistDiv.appendChild(embeddedHtmlDiv);
+        playlistDiv.style.width="60%";
+        playlistDiv.style.marginLeft="20%";
+        playlistDiv.style.marginBottom="2%";
+        playlistDiv.style.marginTop="3%";
+        document.getElementById("script-container").appendChild(playlistDiv);
 
-        document.body.appendChild(playlistDiv);
+        const description = document.createElement('h5');
+        description.textContent = playlist.description;
+        description.style.marginTop="1%";
+        description.style.marginLeft="4%";
+        description.style.marginRight="4%";
+        playlistDiv.appendChild(description);
     });
 }
 
