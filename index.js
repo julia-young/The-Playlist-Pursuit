@@ -1,6 +1,6 @@
 function loadPlaylist(emotion) {
   // Fetch the JSON data containing playlists
-  fetch("./playlists.json")
+  fetch("./data.json")
     .then(response => response.json())
     .then(data => {
       // Check if 'playlists' property exists and is an array
@@ -11,7 +11,14 @@ function loadPlaylist(emotion) {
           // If playlist is found, display its embedded HTML
           const playlistContainer = document.getElementById('playlist-container');
           if (playlistContainer) {
-            playlistContainer.innerHTML = playlist.embeddedHtml;
+            let html = playlist.embeddedHtml;
+            let text = playlist.spotifyText;
+            let img = playlist.spotifyImg;
+            playlistContainer.innerHTML = `
+                ${html}
+                <img src=${img} width=2% />
+                ${text}
+                `;
           }
         } else {
           console.error(`Playlist not found for emotion: ${emotion}`);
@@ -23,12 +30,9 @@ function loadPlaylist(emotion) {
     .catch(error => console.error('Error loading playlist:', error));
 }
 
-async function loadImages(image){
-    const response = await fetch('data.json');
-    const data = await response.json();
-    
-    const images = images["[images]"];
-    const embeddedHtmlDiv = document.createElement('div');
-    embeddedHtmlDiv.innerHTML = data.imgHTML;
-    playlistDiv.appendChild(embeddedHtmlDiv);
+async function loadLogo(){
+    const logoElement = document.createElement('div');
+    logoElement.innerHTML = '<img src = "./images/companyLogo.png" width = 300 alt="the playlist pursuit">';
 }
+
+loadLogo();

@@ -113,6 +113,20 @@
       margin-right: auto;
       background-color: transparent;
     }
+
+    #logo{
+      margin-bottom: 5%;
+    }
+
+    #question{
+      margin-bottom: 2%;
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+
+    #record{
+      margin-top: 3%;
+    }
   </style>
 
 
@@ -161,17 +175,17 @@
     </header>
 
 
-   <script>loadImages(record)</script>
-   <div class="tenor-gif-embed" data-postid="24208699" data-share-method="host" data-aspect-ratio="1"
-   data-width="7.5%"><a
-     href="https://tenor.com/view/timpoulton-turntable-technics1200-record-player-vinyl-records-gif-24208699">Timpoulton
-     Turntable Sticker</a>from <a href="https://tenor.com/search/timpoulton-stickers">Timpoulton Stickers</a></div>
- <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
-
+    
+  
     <main class="px-3">
-      <h1>The Playlist Pursuit</h1>
-      <p class="lead">How are you feeling? Pick your mood from the drop down list to receive a customized playlist just
-        for you!</p>
+      <div id='logo'>
+        <img src = "./images/companyLogo.png" width = 300 alt="the playlist pursuit">
+      </div>
+
+      <script src = "index.js"></script>
+      
+      <h2 id = 'question'>How are you feeling? Pick your mood from the drop down list to receive a customized playlist just
+        for you!</h2>
       <p class="lead">
         <!-- Dropdown menu -->
       <div class="dropdown">
@@ -189,9 +203,16 @@
       </div>
       </p>
 
+
       <div id="playlist-container"></div>
     </main>
 
+    <div id = 'record' class="tenor-gif-embed" data-postid="24208699" data-share-method="host" data-aspect-ratio="1"
+    data-width="7.5%"><a
+      href="https://tenor.com/view/timpoulton-turntable-technics1200-record-player-vinyl-records-gif-24208699">Timpoulton
+      Turntable Sticker</a>from <a href="https://tenor.com/search/timpoulton-stickers">Timpoulton Stickers</a></div>
+  <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+ 
 
     <footer class="mt-auto text-white-50">
       <h6>© 2024 Our Playlist Company, Inc</h6>

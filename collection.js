@@ -1,5 +1,5 @@
 async function fetchPlaylistsData() {
-  const response = await fetch('playlists.json');
+  const response = await fetch('data.json');
   const data = await response.json();
   displayPlaylists(data);
 }
@@ -19,13 +19,25 @@ function displayPlaylists(playlistsData) {
 
         const description = document.createElement('h5');
         description.textContent = playlist.description;
-        description.style.marginBottom = '4%';
+        description.style.marginBottom = '2%';
         playlistDiv.appendChild(description);
         
         playlistDiv.style.marginRight = '20%';
         playlistDiv.style.marginLeft = '20%';
 
         document.body.appendChild(playlistDiv);
+
+        let division = document.createElement("div");
+        let text = playlist.spotifyText;
+        let img = playlist.spotifyImg;
+        division.innerHTML = `
+            <img src=${img} width=2% />
+            ${text}
+            `;
+        division.style.marginBottom = '2%';
+        document.body.appendChild(division);
+
+
     });
 }
 
